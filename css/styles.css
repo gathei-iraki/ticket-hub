@@ -41,21 +41,3 @@
       #form{
         align-content: center;
       }
-=======
-
- th, td {
-    border-bottom: 1px solid #ddd;
-  }
-  table{
-      text-align: center;
-  }
-  
-#about-us {
-    text-align: center;
-}
-
-body {
-    font-family: "Dancing Script";
-    font-size: 25px;
-}
-
