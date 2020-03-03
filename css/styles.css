@@ -1,8 +1,9 @@
   .land{
-    background-image:url("../images/road3.jpeg");
+    background-image:url("https://image.shutterstock.com/image-photo/beautiful-sun-rising-sky-asphalt-260nw-269761259.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    height:95vh;
+    padding-bottom: 300px;
+    background-position: center;
     text-align: center;
     color: aliceblue;
     }
@@ -40,3 +41,5 @@
       #form{
         align-content: center;
       }
+
+      
