@@ -1,3 +1,4 @@
+
  th, td {
     border-bottom: 1px solid #ddd;
   }
@@ -5,3 +6,15 @@
       text-align: center;
   }
   
+#about-us {
+    text-align: center;
+}
+
+body {
+    font-family: "Dancing Script";
+    font-size: 25px;
+}
+th {
+  font-size: medium;
+}
+
