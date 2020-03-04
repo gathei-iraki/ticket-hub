@@ -1,9 +1,4 @@
   .land{
-    background-image:url("https://image.shutterstock.com/image-photo/beautiful-sun-rising-sky-asphalt-260nw-269761259.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding-bottom: 300px;
-    background-position: center;
     text-align: center;
     color: aliceblue;
     }
@@ -19,8 +14,8 @@
       }
       nav{
         position:fixed;
-        /* float: right; */
-        padding-left: 70%;
+        /* float: left; */
+        padding-right: 70%;
       }
       
       li {
@@ -39,7 +34,14 @@
         background-color:rgb(24, 133, 148);
       }
       #form{
-        align-content: center;
+        background-color: lightgray;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding-bottom: 300px;
+        background-position: center;
+        align-self: center;
       }
 
-      
+      #contact{
+        background-color: lightsteelblue;
+      }
