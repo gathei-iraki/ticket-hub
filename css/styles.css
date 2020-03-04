@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
   .land{
     background-image:url("../images/road3.jpeg");
@@ -41,3 +42,13 @@
       #form{
         align-content: center;
       }
+=======
+.heading {
+    text-align: center;
+    background-repeat: no-repeat;
+}
+.container {
+    text-align: center;
+
+}
+>>>>>>> Add commit in ticket-hub
