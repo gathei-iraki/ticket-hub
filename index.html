@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="https://fonts.googleapis.com/css?family=Dancing+Script&display=swap" rel="stylesheet">
-    <link href=" css/bootstrap.css " rel="stylesheet " type="text/css ">
-    <link href="css/styles.css " rel="stylesheet " type="text/css ">
-    <title>Ticket Hub</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ticket company</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
@@ -16,6 +16,89 @@
             <p>We are a Kenyan online bus booking website,except we do things a bit different from the usual.</p>
             <p>We at ticket-hub incorporate all the bus companies in Kenya so you can get them all in one place and save yourself the hustle of looking them all up in different websites.</p>
             <p>So get ready to see your imaginations come true!</p>
+
+    <div class="land">
+        <div id="home">
+           <!-- Load an icon library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<div class="navbar">
+  <a class="active" href="#home"><i class="fa fa-fw fa-home"></i> Home</a>
+  <a href="#routes"><i class="fa fa-fw fa-search"></i> Search</a>
+  <a href="#contact"><i class="fa fa-fw fa-envelope"></i> Contact</a>
+  <a href="#feedback"><i class="fa fa-fw fa-user"></i> feedback</a>
+</div>
+        </div>
+        <div id="form">
+            <form id="myForm">
+                <img class="images" src="images/drive5.png">
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="form-group">
+                            <label for="sel1">From:</label>
+                            <select class="form-control" id="top">
+                                <option>Nairobi</option>
+                                <option>Kisumu</option>
+                                <option>Mombasa</option>
+                                <option>Kakamega</option>
+                                <option>Mumias</option>
+                                <option>Kaimosi</option>
+                                <option>Kampala</option>
+                                <option>Daresalam</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="form-group">
+                            <label for="sel1">To:</label>
+                            <select class="form-control" id="top">
+                                <option>Nairobi</option>
+                                <option>Kisumu</option>
+                                <option>Mombasa</option>
+                                <option>Kakamega</option>
+                                <option>Mumias</option>
+                                <option>Kaimosi</option>
+                                <option>Kampala</option>
+                                <option>Daresalam</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="form-group" required="">
+                            <label for="sel1">Number of tickets:</label>
+
+                            <input type="number" id="number" class="form-control" min="1" required="">
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <label for="sel1">Date:</label>
+                        <input type="datetime-local" id="book" class="form-control">
+                    </div>
+                </div>
+                <form action="#routes">
+                    <button type="submit">buses</button>
+        </div>
+        </form>
+    </div>
+    <br>
+    <div id="contact">
+        <h3><strong>CONTACT US</strong></h3>
+
+        <form id="contactform ">
+            <div class="form-row ">
+                <div class="col-md-6 ">
+                    <label for="name "></label>
+                    <input type="text " class="form-control " id="name " placeholder="Name... ">
+                </div>
+                <div class="col-md-6 ">
+                    <label for="inputEmail "></label>
+                    <input type="text " class="form-control " id="inputEmail " placeholder="Email... ">
+                </div>
+            </div>
+            <button type="submit " id="submit " class="btn btn-primary ">Submit</button>
+        </form>
+
+
     </div>
     <p>Date</p>
     <form>

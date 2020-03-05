@@ -18,3 +18,11 @@ function giveSelectedDate() {
     if (selectedDate === "any number" && year > 0 && month > 0 && month < 13 && day > 0 && day < 32) {
         selectedDate = dayOfTheWeek[daySelected];
         alert("Your travel date is " + dayOfTheWeek[daySelected] + " Thank you for choosing ticket-hub");
+
+$("form#contactform").submit(function(event){
+    event.preventDefault();
+    var name = $("#name").val();
+    var email = $("#email").val();
+    var mess = $("#message").val();
+    alert("Hello " + name + " ,Thank You for booking with Us. Have a safe journey");
+    });
