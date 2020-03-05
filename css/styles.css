@@ -1,15 +1,15 @@
 th, td {
-    border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
 }
 table{
-      text-align: center;
+    text-align: center;
 }  
 #about-us {
-    text-align: center;
+  text-align: center;
 }
 body {
-    font-family: fantasy;
-    font-size: 25px;
+  font-family: fantasy;
+  font-size: 25px;
 }
 th {
   font-size: medium;
