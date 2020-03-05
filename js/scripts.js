@@ -19,7 +19,19 @@ function giveSelectedDate() {
         selectedDate = dayOfTheWeek[daySelected];
         alert("Your travel date is " + dayOfTheWeek[daySelected] + " Thank you for choosing ticket-hub");
 
-$("form#contactform").submit(function(event){
+
+function getTotalAmount() {
+  prompt("Enter your name");
+  prompt("Enter your pay bill")
+  prompt("enter your business no");
+    prompt("enter your business no");
+    prompt("enter your account no.");
+    prompt("enter your mpesa pin");
+    alert("Thank you for booking with us");
+    alert("will send you your ticket number to your email address. ");
+    alert("");
+  };
+   $("form#contactform").submit(function(event){
     event.preventDefault();
     var name = $("#name").val();
     var email = $("#email").val();
