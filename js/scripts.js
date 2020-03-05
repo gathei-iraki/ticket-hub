@@ -8,4 +8,3 @@ function response() {
     $('#email').val('');
     $('#textarea').val('');
   }
-    <button onclick="window.location.href='/booking'">booking</button>
