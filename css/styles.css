@@ -1,8 +1,47 @@
-#about-us {
+  .land{
     text-align: center;
-}
+    color: aliceblue;
+    }
+    .landoverlay{
+    background-color:transparent;
+    }
+    nav ul{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color:rgba(16, 173, 126, 0.829);
+      }
+      nav{
+        position:fixed;
+        /* float: left; */
+        padding-right: 70%;
+      }
+      
+      li {
+        float: right;
+      }
+      
+      li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+      
+      li a:hover {
+        background-color:rgb(24, 133, 148);
+      }
+      #form{
+        background-color: lightgray;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding-bottom: 300px;
+        background-position: center;
+        align-self: center;
+      }
 
-body {
-    font-family: "Dancing Script";
-    font-size: 25px;
-}
+      #contact{
+        background-color: lightsteelblue;
+      }
