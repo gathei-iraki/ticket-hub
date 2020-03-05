@@ -1,3 +1,20 @@
+th, td {
+  border-bottom: 1px solid #ddd;
+}
+table{
+    text-align: center;
+}  
+#about-us {
+  text-align: center;
+}
+body {
+  font-family: fantasy;
+  font-size: 25px;
+}
+th {
+  font-size: medium;
+}
+
   .land{
     text-align: center;
     color: aliceblue;
