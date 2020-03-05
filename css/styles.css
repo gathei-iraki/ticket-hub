@@ -1,13 +1,15 @@
-
+#about {
 .mpesa {
    /* background: url("../image/lipa.jpg"); */
    /* background-repeat: no-repeat; */
    text-align: center;
 }
+
 th, td {
   border-bottom: 1px solid #ddd;
 }
 table{
+
     text-align: center;
 }  
 #about-us {
