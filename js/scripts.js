@@ -1,7 +1,11 @@
-$("form#contactform").submit(function(event){
+function response() {
+    var myName = $("input#name").val();
+    var myEmail = $("input#email").val();
+    var comment = $("input#message").val();
+    alert(myName + ",we have received your message.Thank you for reaching out to us.");
     event.preventDefault();
-    var name = $("#name").val();
-    var email = $("#email").val();
-    var mess = $("#message").val();
-    alert("Hello " + name + " ,Thank You for booking with Us. Have a safe journey");
-    });
+    $('#name').val('');
+    $('#email').val('');
+    $('#textarea').val('');
+  }
+    <button onclick="window.location.href='/booking'">booking</button>
