@@ -1,6 +1,6 @@
 function getTotalAmount() {
   prompt("Enter your name");
-  
+  prompt("Enter your paybill no");
   prompt("enter your business no");
     prompt("enter your business no");
     prompt("enter your account no.");
