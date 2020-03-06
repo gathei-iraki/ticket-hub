@@ -1,13 +1,10 @@
 
-.mpesa {
-   /* background: url("../image/lipa.jpg"); */
-   /* background-repeat: no-repeat; */
-   text-align: center;
-}
+
 th, td {
   border-bottom: 1px solid #ddd;
 }
 table{
+
     text-align: center;
 }  
 #about-us {
@@ -68,3 +65,17 @@ th {
       #contact{
         background-color: lightsteelblue;
       }
+      .whole{
+        color: aliceblue;
+        font-family: 'Amatic SC', cursive;
+        font-weight: 900;
+        font-size: xx-large;
+      }
+body{
+  background-color: black;
+}
+#search:hover{
+  opacity: 0.6;
+
+
+}
