@@ -38,3 +38,4 @@ function getTotalAmount() {
     var mess = $("#message").val();
     alert("Hello " + name + " ,Thank You for booking with Us. Have a safe journey");
     });
+
